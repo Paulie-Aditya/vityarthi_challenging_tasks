@@ -10,4 +10,6 @@ name = input("Employee who resigned: ")
 try:
     del MY_Chat[name]
 except:
-    "This "
+    "This employee is not a part of this company."
+
+print(MY_Chat)
