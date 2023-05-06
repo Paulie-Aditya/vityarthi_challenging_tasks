@@ -13,4 +13,6 @@ cost,interior_price,selling_price =list(map(int,input().split()))
 
 total_cost = (cost+interior_price)
 
-profit = (selling_price - total_cost)/(total_cost)
+profit = round((((selling_price - total_cost)/(total_cost)) * 100),3)
+
+print("The profit is: ",profit)
