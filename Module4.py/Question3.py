@@ -3,10 +3,11 @@ A car has travelled D kilometers in T hours of time. What is the speed of the ca
 Write a python program to demonstrate.
 """
 
-print("Enter integers for distance and time: ", end = "")
+print("Enter integers for distance and time: ", end = "\n")
 
-distance,time = list(map(int,input().split()))
+distance = int(input())
+time = int(input())
 
 speed = round((distance/time),3)
 
-print("The speed of the car in km/h is: ", speed)
+print("The speed of the car in km/hr is: ", speed)
