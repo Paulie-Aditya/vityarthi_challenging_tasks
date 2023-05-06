@@ -1,13 +1,12 @@
-#The hypotenuse is the longest side of a right angled triangle. Using Pythagoras’s theorem, calculate the third side and also the area of the right triangle.
+#Profit calculation Using “Operators”
 
-import math
+"""
+Mr. Rama buys a 2BHK luxury apartment in Bhopal for the cost of Rs.A and he has gone for
+interior decorations with Rs.B cost. Luckily in his territory the government has announced a
+Special Economic Zone (SEZ). The demand for the flats in that area was boosted by the white
+collar & golden collar professionals. If he sells the flat for Rs.Z, what is his profit in
+percentage? Write a Python program to compute the profit in percentage?
+"""
 
-width = int(input("Enter Width of Triangle: "))
-height = int(input("Enter Height of Triangle: "))
-
-hypotenuse = round(math.sqrt(height**2 + width**2),3)
-
-area = 0.5*height*width
-
-print("The third of the triangle is ", hypotenuse)
-print("Area of the right angled triangle is ", area)
+print("Enter Cost, Interior and Selling Price: ", end = " ")
+cost,interior,selling_price =list(map(int,input().split()))
