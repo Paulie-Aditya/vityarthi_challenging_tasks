@@ -16,6 +16,9 @@ print(d)
 
 """
 Output: True
+Output: True
+Output: True
+Output: True
 
 """
 
@@ -28,6 +31,6 @@ We set d to a<b>c-1
 This means:
     First c-1 is calculated since - has higher operator precedence.
     Now the condition is checked from left-to-right since all operators have same precedence
-    
+
 
 """
