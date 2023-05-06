@@ -11,5 +11,6 @@ percentage? Write a Python program to compute the profit in percentage?
 print("Enter Cost, Interior and Selling Price: ", end = " ")
 cost,interior_price,selling_price =list(map(int,input().split()))
 
+total_cost = (cost+interior_price)
 
-profit = (selling_price - (cost+interior_price))
+profit = (selling_price - total_cost)/(total_cost)
