@@ -5,7 +5,7 @@ appropriate functions provided by Python.
 """
 import math
 
-scores = list(map(int,input("Enter 7 integers with spaces: "),split()))
+scores = list(map(int,input("Enter 7 integers with spaces: ").split()))
 
 mean = round((sum(scores) / len(scores)),3)
 
