@@ -9,4 +9,7 @@ percentage? Write a Python program to compute the profit in percentage?
 """
 
 print("Enter Cost, Interior and Selling Price: ", end = " ")
-cost,interior,selling_price =list(map(int,input().split()))
+cost,interior_price,selling_price =list(map(int,input().split()))
+
+
+profit = (selling_price - (cost+interior_price))
