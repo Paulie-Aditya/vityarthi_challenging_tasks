@@ -29,9 +29,6 @@ This means:
     if a<b is True, it is set to 1
     else it is set to 0
 
-    Now either 0>(c-1) or 1>(c-1) is checked in accordance to previous
-
-
-
+    Now either 0>(c-1) or 1>(c-1) is checked in accordance to previous condition.
 
 """
