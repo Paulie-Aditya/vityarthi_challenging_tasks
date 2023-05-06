@@ -5,3 +5,5 @@ by one from a stack of country currencies.
 Find the total number of distinct country currencies.
 
 """
+
+n = int(input("Enter Number of Currencies: "))
